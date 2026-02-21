@@ -10,3 +10,4 @@ dist/
 build/
 *.spec
 audit.log
+build_exe.ps1

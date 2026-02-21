@@ -12,7 +12,6 @@ $arguments = @(
     "--clean",
     "--windowed",
     "--name", $AppName,
-    "--icon", "NONE",
     "--add-data", "README.md;.",
     "main.py"
 )
@@ -27,4 +26,3 @@ if ($LASTEXITCODE -eq 0) {
 
 Write-Error "Сборка завершилась с ошибкой."
 exit 1
-
