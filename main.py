@@ -1,5 +1,5 @@
-from remote_control.gui import ControlPanelApp
-from remote_control.logging_setup import configure_logging
+from src.gui import ControlPanelApp
+from src.logging_setup import configure_logging
 
 
 def main() -> None:

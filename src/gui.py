@@ -12,9 +12,9 @@ from pathlib import Path
 from tkinter import messagebox, ttk
 from tkinter.scrolledtext import ScrolledText
 
-from remote_control import autostart
-from remote_control.bot_service import RemoteControlBot
-from remote_control.config import AppConfig, load_config, save_config
+from src import autostart
+from src.bot_service import RemoteControlBot
+from src.config import AppConfig, load_config, save_config
 
 
 class ControlPanelApp:

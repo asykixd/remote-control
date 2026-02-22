@@ -26,10 +26,10 @@ from telegram.constants import ParseMode
 from telegram.error import TelegramError
 from telegram.ext import Application, CallbackQueryHandler, CommandHandler, ContextTypes, MessageHandler, filters
 
-from remote_control import autostart
-from remote_control.audit import AuditStore
-from remote_control.config import AppConfig, load_config, save_config
-from remote_control.script_api import convert_legacy_custom_scripts, ensure_scripts_dir, load_scripts_from_directory
+from src import autostart
+from src.audit import AuditStore
+from src.config import AppConfig, load_config, save_config
+from src.script_api import convert_legacy_custom_scripts, ensure_scripts_dir, load_scripts_from_directory
 
 
 LogFn = Callable[[str], None]
